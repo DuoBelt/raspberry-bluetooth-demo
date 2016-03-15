@@ -70,3 +70,6 @@ This demo would not have been possible thanks to the following posts and online 
 * [Raspberry Pi 3 Bluetooth Setup](https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=138145)  
 
 Although this repo intends to be a summary of these resources, if you are stuck it might be useful to check them out.
+
+##Important Note!!
+If something didn't work for you, you had to implement a weird fix or hack, or you think something could be explained better feel free to make a pull request!
