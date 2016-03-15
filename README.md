@@ -71,5 +71,5 @@ This demo would not have been possible thanks to the following posts and online 
 
 Although this repo intends to be a summary of these resources, if you are stuck it might be useful to check them out.
 
-##Important Note!!
-If something didn't work for you, you had to implement a weird fix or hack, or you think something could be explained better feel free to make a pull request!
+##Important Note!
+If something didn't work for you, you had to implement a weird fix or hack, or you think something could be explained better (maybe you found a typo, missing comma, or some weird wording (this is very much likely)) feel free to make a pull request!
