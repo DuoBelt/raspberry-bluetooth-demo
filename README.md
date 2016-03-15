@@ -33,7 +33,7 @@ Make your device discoverable
 ```
 sudo hciconfig hci0 piscan
 ```
-
+Configure your device name
 ```
 sudo hciconfig hci0 name 'Device Name' [change your device name to something else you fancy]
 ```
