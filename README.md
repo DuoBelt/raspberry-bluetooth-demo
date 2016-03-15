@@ -57,15 +57,16 @@ The example may also be found [here](https://github.com/karulis/pybluez/blob/mas
 
 ##Connecting from an Android Phone
 There are several applications in the Google Play Store for bluetooth connectivity that may work. We'll be using [BlueTerm](https://play.google.com/store/apps/details?id=es.pymasde.blueterm&hl=en) as it supports the RFCOMM bluetooth protocol.
-Steps:
-1. Download (BlueTerm)[https://play.google.com/store/apps/details?id=es.pymasde.blueterm&hl=en]
-2. Scan for devices, if you've done everything correctly the Raspberry Pi should show up 
-3. Connect
-4. Success! Send messages back and forth!
+
+__Steps:__  
+1. Download [BlueTerm](https://play.google.com/store/apps/details?id=es.pymasde.blueterm&hl=en)  
+2. Scan for devices, if you've done everything correctly the Raspberry Pi should show up  
+3. Connect  
+4. Success! Send messages back and forth!  
 
 ##Credits
 This demo would not have been possible thanks to the following posts and online resources:
-[Android Linux / Raspberry Pi Bluetooth communication](http://blog.davidvassallo.me/2014/05/11/android-linux-raspberry-pi-bluetooth-communication/)
-[Raspberry Pi 3 Bluetooth Setup](https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=138145)
+* [Android Linux / Raspberry Pi Bluetooth communication](http://blog.davidvassallo.me/2014/05/11/android-linux-raspberry-pi-bluetooth-communication/)  
+* [Raspberry Pi 3 Bluetooth Setup](https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=138145)  
 
-Although this repo intends to be a summary of these resources, if you are stuck it might prove useful to check them out.
+Although this repo intends to be a summary of these resources, if you are stuck it might be useful to check them out.
