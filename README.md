@@ -41,7 +41,7 @@ sudo hciconfig hci0 name 'Device Name' [change your device name to something els
 ##Scanning for devices
 run the inquiry example:
 ```
-sudo python /usr/share/doc/python-bluez/examples/simple/inquirt.py
+sudo python /usr/share/doc/python-bluez/examples/simple/inquiry.py
 ```
 
 The example may also be found [here](https://github.com/karulis/pybluez/blob/master/examples/simple/inquiry.py).
