@@ -2,7 +2,7 @@
 
 This demo shows how to setup a simple bluetooth server in a Raspberry Pi so an Android Phone can connect to it.
 
-##Prerequisites
+## Prerequisites
 This demo assumes:
 * basic Linux (*nix also works too) command line knowledge
 * Python knowledge
@@ -15,7 +15,7 @@ sudo apt-get install pi-bluetooth
 
 This demo uses Bluez, Linux's Bluetooth protocol stack, we'll be using [PyBluez](https://github.com/karulis/pybluez), a Python API for accesing the bluetooth resources using the bluez protocol.
 
-##Installation
+## Installation
 
 install bluez
 ```
@@ -27,7 +27,7 @@ install pyBluez
 sudo apt-get install bluez python-bluez
 ```
 
-##Setup your Raspberry Pi
+## Setup your Raspberry Pi
 
 Make your device discoverable
 ```
@@ -38,7 +38,7 @@ Configure your device name
 sudo hciconfig hci0 name 'Device Name' [change your device name to something else you fancy]
 ```
 
-##Scanning for devices
+## Scanning for devices
 run the inquiry example:
 ```
 sudo python /usr/share/doc/python-bluez/examples/simple/inquiry.py
@@ -47,7 +47,7 @@ sudo python /usr/share/doc/python-bluez/examples/simple/inquiry.py
 The example may also be found [here](https://github.com/karulis/pybluez/blob/master/examples/simple/inquiry.py).
 
 
-##Running the Bluetooth Server
+## Running the Bluetooth Server
 run the rfcomm-server example:
 ```
 sudo python /usr/share/doc/python-bluez/examples/simple/rfcomm-server.py
@@ -55,7 +55,7 @@ sudo python /usr/share/doc/python-bluez/examples/simple/rfcomm-server.py
 
 The example may also be found [here](https://github.com/karulis/pybluez/blob/master/examples/simple/rfcomm-server.py). After running the script the server will be waiting for an incoming connection.
 
-##Connecting from an Android Phone
+## Connecting from an Android Phone
 There are several applications in the Google Play Store for bluetooth connectivity that may work. We'll be using [BlueTerm](https://play.google.com/store/apps/details?id=es.pymasde.blueterm&hl=en) as it supports the RFCOMM bluetooth protocol.
 
 __Steps:__  
@@ -64,14 +64,14 @@ __Steps:__
 3. Connect  
 4. Success! Send messages back and forth!  
 
-##Credits
+## Credits
 This demo would not have been possible thanks to the following posts and online resources:
 * [Android Linux / Raspberry Pi Bluetooth communication](http://blog.davidvassallo.me/2014/05/11/android-linux-raspberry-pi-bluetooth-communication/)  
 * [Raspberry Pi 3 Bluetooth Setup](https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=138145)  
 
 Although this repo intends to be a summary of these resources, if you are stuck it might be useful to check them out.
 
-##Known Issues
+## Known Issues
 
 ```
 Traceback (most recent call last):
@@ -86,5 +86,5 @@ __Possible fixes__
 * make sure you have the serial profile loaded. [How to enable the serial profile](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=133263).
 * Yor own fix? Make a pull request!
 
-##Important Note!
+## Important Note!
 If something didn't work for you, you had to implement a weird fix or hack, or you think something could be explained better (maybe you found a typo, missing comma, or some weird wording (this is very much likely)) feel free to make a pull request!
