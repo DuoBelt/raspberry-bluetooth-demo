@@ -9,6 +9,5 @@ mkdir blue
 
 sudo nano hello-world.py
 
-sudo apt-get install emacs
-
-sudo apt-get install vim
+//sudo apt-get install emacs
+//sudo apt-get install vim
