@@ -15,7 +15,9 @@ Next, enter agent on and press enter. Then type default-agent and press enter.
 Type scan on and press enter one more time. The unique addresses of all the Bluetooth devices around the Raspberry Pi will appear and look something like an alphanumeric XX:XX:XX:XX:XX:XX. If you make the device you want to pair discoverable (or put it into pairing mode), the device nickname may appear to the right of the address. If not, you will have to do a little trial and error or waiting to find the correct device.
 To pair the device, type pair [device Bluetooth address]. The command will look something like pair XX:XX:XX:XX:XX:XX.
 
-
+2.
+sudo -E pip install pexpect 
+bluetoothctl.py
 
 
 //sudo apt-get install emacs
